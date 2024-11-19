@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "titre";
+    src: url('fonts/Pilowlava-Regular.woff2') format('woff2'),
+        url('fonts/Pilowlava-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "sous-titre";
+    src: url('fonts/Karrik-Regular.woff') format('woff2'),
+        url('fonts/Karrik-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    background-image: url("img/IMG_9563.HEIC");
+}
+
+.titre{
+    color: rgb(0, 0, 0);
+    font-family : "titre";
+    left : 15px;
+    top : 1px;
+    position: fixed;
+    font-style :normal;
+    font-size: 550%;
+}
+.sous-titre{
+    color: rgb(0, 0, 0);
+    font-family : "sous-titre";
+    left : 20px;
+    top : 150px;
+    position: fixed ;
+    font-style :normal;
+    font-size: 150%;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" href="css/ragrng.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG RNG</title>
+    <img class = "" src=""alt="">
+</head>
+
+<body>
+    <img src="img/P1030213.JPG"alt="">
+    <h1 class = "titre">RAG RNG</h1>
+    <subtitle class = "sous-titre">résidence autogérée en refuge non gardé</subtitle>
+
+        

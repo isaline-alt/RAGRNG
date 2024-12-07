@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "sous-titre";
+    src: url('fonts/Karrik-Regular.woff') format('woff2'),
+        url('fonts/Karrik-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "titre";
+    src: url('fonts/Pilowlava-Regular.woff2') format('woff2'),
+        url('fonts/Pilowlava-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.titre{
+    color: rgb(0, 0, 0);
+    font-family : "titre";
+    margin-left : 15px;
+    top: 20px;
+    position: fixed;
+    font-style :normal;
+    font-size: 500%;
+}
+cursor{
+  cursor: url('Drawing-5.gif');
+
+}
+.titlelink{
+  color: rgb(0, 0, 0);
+  font-family : "sous-titre";
+  margin-left: 15px;
+  top : 20px;
+  position: absolute;
+  font-size: 500%;
+}
+
+
+body{
+    background-color: rgb(236, 235, 234);
+    margin-top: 250px;
+    
+
+}
+
+
+  .carousel-wrapper {
+    display: flex;
+    justify-content: center; /* Centre les carrousels horizontalement */
+    align-items: center; /* Centre les carrousels verticalement */
+    flex-wrap: wrap; /* Permet d'avoir plusieurs carrousels sur plusieurs lignes si nécessaire */
+    gap: 100px; /* Espacement entre les carrousels */
+    width: 100%;
+    margin-top: 20px;
+  }
+  .carousel-container {
+    position: relative;
+    width: 1000px; /* Largeur du carrousel */
+    height: 800px; /* Hauteur du carrousel */
+    overflow: hidden;
+
+  }
+
+  /* Conteneur des images (qui se déplacent) */
+  .carousel-images {
+    display: flex;
+    width: 100%;
+  }
+
+  /* Chaque image dans le carrousel */
+  .carousel-images img { 
+    width: 100%; /* Chaque image prend la largeur du conteneur */
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-caption {
+    font-family: "sous-titre";
+    position: relative;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    padding: 10px;
+    margin-bottom: 5px; /* Marge pour séparer la légende du carrousel */
+  }
+
+  /* Style des boutons de navigation */
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    opacity: 40%;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .prev-button {
+    left: 10px;
+  }
+
+  .next-button {
+    right: 10px;
+  }
+  

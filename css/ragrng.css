@@ -15,9 +15,60 @@
     font-display: swap;
 }
 body{
-    background-image: url("img/IMG_9563.HEIC");
+    background-image: src("img/IMG_9563.HEIC");
+
 }
 
+.item1{
+    font-size : 300%;
+    font-family: "sous-titre";
+    position:fixed;
+    display : block;
+    right: 35%;
+    top:15%;
+    color: rgb(61, 4, 77);
+}
+
+.item2{
+    font-size : 300%;
+    font-family: "sous-titre";
+    position: fixed;
+    display: block;
+    right: 10%;
+    top: 25%;
+    color: rgb(73, 7, 91);
+
+}
+.item3{
+    font-size : 300%;
+    font-family: "sous-titre";
+    position: fixed;
+    display: block;
+    right: 35%;
+    top: 45%;
+    color: rgb(61, 4, 77);
+
+}
+.item4{
+    font-size : 300%;
+    font-family: "sous-titre";
+    position: fixed;
+    display: block;
+    right: 10%;
+    top: 65%;
+    color: rgb(61, 4, 77);
+
+}
+.item5{
+    font-size : 300%;
+    font-family: "sous-titre";
+    position: fixed;
+    display: block;
+    right: 35%;
+    top: 75%;
+    color: rgb(61, 4, 77);
+
+}
 .titre{
     color: rgb(0, 0, 0);
     font-family : "titre";
@@ -25,7 +76,7 @@ body{
     top : 1px;
     position: fixed;
     font-style :normal;
-    font-size: 550%;
+    font-size: 500%;
 }
 .sous-titre{
     color: rgb(0, 0, 0);
@@ -36,3 +87,13 @@ body{
     font-style :normal;
     font-size: 150%;
 }
+.presentation{
+    color: rgb(251, 251, 251);
+    font-family : "sous-titre";
+    left: 400 px;
+    bottom: -2000px;
+    position: absolute;
+    font-style : italic;
+    font-size: 150%;
+}
+

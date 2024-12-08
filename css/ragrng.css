@@ -100,23 +100,34 @@ body{
    body{
     background-size : background-size: 768 px 1500px;
 
+   }
+    .titre{
+    font-size :300 px;
+}
+    .sous-titre{
+    font-size :200 px;
+}
+    .presentation{
+    marger-bottom : 50 px;
 }
 
 .item1{
     left : 30px;
-}
-    .item1{
-    left : 30px;
+    margin-top :50px;
 }
     .item2{
     left : 30px;
+    margin-top :50px;
 }.item3{
     left : 30px;
+    margin-top :50px;
 }.item4{
     left : 30px;
+    margin-top :50px;
 }
     .item5{
     left : 30px;
+    margin-top :50px;
 }
     
 

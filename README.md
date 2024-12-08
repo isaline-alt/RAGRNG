@@ -9,6 +9,7 @@
 </head>
 
 <body>
+background-image: url('P1030213.webp');
     
     <h1 class = "titre">RAG RNG</h1>
     <subtitle class = "sous-titre">résidence autogérée en refuge non gardé</subtitle>

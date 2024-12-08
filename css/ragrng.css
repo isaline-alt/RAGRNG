@@ -19,7 +19,8 @@ body{
             background-size: cover; /* Couvre toute la surface */
             background-position: center center; /* Centre l'image */
             background-repeat: no-repeat; /* Empêche la répétition de l'image */
-            height: 100vh; /* Assure que l'image couvre toute la hauteur de la page */
+            height: 1920px;                 /* Définissez une hauteur à l'élément pour voir l'image */
+    width: 1080px; 
             margin: 0;
 
 }

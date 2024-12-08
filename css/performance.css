@@ -119,6 +119,7 @@ body{
    }
     .container {
         width: 90%;
+        margin-top : 30px;
     }
 
     .carousel-button {

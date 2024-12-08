@@ -108,7 +108,7 @@ body{
   }
 @media (max-width: 768px) {
    .titre{
-       font-size: 100%;
+       font-size: 200%;
        text-align : left;
 
    }
@@ -121,14 +121,10 @@ body{
         width: 90%;
     }
 
-    .main-content {
-        flex-direction: column;
-        align-items: center;
-    }
+    .carousel-button {
+    top: 10%;
+    
+  }
 
-    .header {
-        padding: 15px;
-        text-align: left;
-    }
 }
   

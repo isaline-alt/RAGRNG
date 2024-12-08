@@ -109,8 +109,33 @@ body{
     justify-content: center; /* Centre verticalement */
    
 }
+    .item1{
+    right: 100px;
+    top: 100px;
+
+}
+    .item3{
+    right: 100px;
+    top: 100px;
+
+}
+    .item2{
+    right: 100px;
+    top: 100px;
+
+}
+    .item4{
+    right: 100px;
+    top: 100px;
+
+}
+    .item5{
+    right: 100px;
+    top: 100px;
+
+}
     .presentation{
-    position : static;
+    position : fixed;
        
 }
 }

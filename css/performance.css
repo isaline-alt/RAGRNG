@@ -107,6 +107,16 @@ body{
     right: 10px;
   }
 @media (max-width: 768px) {
+   .titre{
+       font-size: 100%;
+       text-align : left;
+
+   }
+    .titlelink{
+       font-size: 100%;
+       text-align : left;
+
+   }
     .container {
         width: 90%;
     }

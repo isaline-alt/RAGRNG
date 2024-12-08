@@ -104,9 +104,8 @@ body{
     body {
       background-image: url('img/P1030213.webp');
       background-position: center;
-    background-size: cover; /* L'image couvre toute la surface sans distorsion */
+    background-size: 70%; /* L'image couvre toute la surface sans distorsion */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
-            height: 100vh; 
     }
     .item1{
     left: 100px;

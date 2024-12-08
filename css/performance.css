@@ -108,12 +108,12 @@ body{
   }
 @media (max-width: 768px) {
    .titre{
-       font-size: 200%;
+       font-size: 350%;
        text-align : left;
 
    }
     .titlelink{
-       font-size: 100%;
+       font-size: 350%;
        text-align : left;
 
    }
@@ -122,9 +122,13 @@ body{
     }
 
     .carousel-button {
-    top: 10%;
+    top: 25%;
     
-  }
+  }body{
+    margin-top: 50px;
+    
+
+}
 
 }
   

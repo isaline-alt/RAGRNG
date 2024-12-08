@@ -26,7 +26,7 @@ body{
 .item1{
     font-size : 300%;
     font-family: "sous-titre";
-    position:fixed;
+    position: fixed;
     display : flex;
     right: 35%;
     top:15%;
@@ -110,7 +110,7 @@ body{
     }
     .item1{
     left: 100px;
-    top: 600 px;
+    top: 600px;
 
 }
     .item3{

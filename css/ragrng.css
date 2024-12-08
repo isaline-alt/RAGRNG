@@ -15,7 +15,12 @@
     font-display: swap;
 }
 body{
-    background-image: src("img/P1030213.webp");
+   background-image: url('P1030213.webp');
+            background-size: cover; /* Couvre toute la surface */
+            background-position: center center; /* Centre l'image */
+            background-repeat: no-repeat; /* Empêche la répétition de l'image */
+            height: 100vh; /* Assure que l'image couvre toute la hauteur de la page */
+            margin: 0;
 
 }
 
@@ -98,46 +103,6 @@ body{
 }
 @media (max-width: 768px) {
    body{
-    background-size : 40%;
-
-   }
-    .titre{
-    font-size :300 px;
-}
-    .sous-titre{
-    font-size :200 px;
-}
-    .presentation{
-    marger-bottom : 50 px;
-}
-
-.item1{
-    position: relative;
-    text-align : left;
-    margin-top : 80 px;
-    
-
-}
-    .item2{
-        position: relative;
-  text-align : left;
-    margin-top : 80 px;
-}
-       .item3{
-           position: relative;
-    text-align : left;
-    margin-top : 80 px;
-}
-       .item4{
-           position: relative;
-    text-align : left;
-    margin-top : 80 px;
-}
-    .item5{
-        position: relative;
-   text-align : left;
-    margin-top : 80 px;
-}
     
 
 }

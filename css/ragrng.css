@@ -118,10 +118,12 @@ body{
     .item2{
     left : 30px;
     top :15px;
-}.item3{
+}
+       .item3{
     left : 30px;
     top : 20 px;
-}.item4{
+}
+       .item4{
     left : 30px;
     top : 25 px;
 }

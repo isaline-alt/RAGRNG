@@ -101,41 +101,38 @@ body{
     font-size: 150%;
 }
 @media (max-width: 768px) {
-   body{
-    background-color :rgb(251, 251, 251);
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centre horizontalement */
-    justify-content: center; /* Centre verticalement */
-   
-}
     .item1{
+        position : static;
     left: 100px;
     top: 200 px;
 
 }
     .item3{
+        position : static;
     left: 100px;
     top: 500px;
 
 }
     .item2{
+        position : static;
     left: 100px;
     top: 280px;
 
 }
     .item4{
+        position : static;
     left: 100px;
     top: 340px;
 
 }
     .item5{
+        position : static;
     left: 100px;
     top: 420px;
 
 }
     .presentation{
-    position : fixed;
+    position : static;
        
 }
 }

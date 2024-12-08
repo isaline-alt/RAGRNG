@@ -112,29 +112,29 @@ body{
 }
 
 .item1{
-    position: sticky;
+    position: relative;
     text-align : left;
     margin-top : 80 px;
     
 
 }
     .item2{
-        position: sticky;
+        position: relative;
   text-align : left;
     margin-top : 80 px;
 }
        .item3{
-           position: sticky;
+           position: relative;
     text-align : left;
     margin-top : 80 px;
 }
        .item4{
-           position: sticky;
+           position: relative;
     text-align : left;
     margin-top : 80 px;
 }
     .item5{
-        position: sticky;
+        position: relative;
    text-align : left;
     margin-top : 80 px;
 }

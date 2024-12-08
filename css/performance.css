@@ -23,10 +23,7 @@
     font-style :normal;
     font-size: 500%;
 }
-cursor{
-  cursor: url('Drawing-5.gif');
 
-}
 .titlelink{
   color: rgb(0, 0, 0);
   font-family : "sous-titre";
@@ -130,6 +127,10 @@ body{
     
 
 }
+     .carousel-wrapper {
+    gap: 30px; /* Espacement entre les carrousels */
+
+  }
 
 }
   

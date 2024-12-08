@@ -9,7 +9,14 @@
 </head>
 
 <body>
-background-image: url('P1030213.webp');
+    <style>
+    body {
+      background-image: url('P1030213.webp');
+      background-size: 140%;
+      background-position: center;
+    }
+    </style>
+
     
     <h1 class = "titre">RAG RNG</h1>
     <subtitle class = "sous-titre">résidence autogérée en refuge non gardé</subtitle>

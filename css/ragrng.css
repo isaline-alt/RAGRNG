@@ -96,4 +96,28 @@ body{
     font-style : italic;
     font-size: 150%;
 }
+@media (max-width: 768px) {
+   body{
+    background-size : contain;
 
+}
+
+.item1{
+    position:sticky;
+}
+    .item1{
+    position:sticky;
+}
+    .item2{
+    position:sticky;
+}.item3{
+    position:sticky;
+}.item4{
+    position:sticky;
+}
+    .item5{
+    position:sticky;
+}
+    
+
+}

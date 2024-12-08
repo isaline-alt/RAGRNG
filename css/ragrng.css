@@ -104,6 +104,13 @@ body{
 }
 @media (max-width: 768px) {
    body{
-    
+    background-size: 13cm 7cm;
+    display: flex; /* Utilisation de Flexbox */
+            flex-direction: column; /* Aligne les éléments sur une colonne */
+            align-items: center; /* Centre tous les éléments horizontalement */
+            justify-content: flex-start; /* Aligne les éléments en haut (par défaut) */
+            height: 100vh; /* Prend toute la hauteur de la fenêtre */
+            margin: 0;
+            padding: 0;
 
 }

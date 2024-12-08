@@ -109,37 +109,29 @@ body{
             height: 100vh; 
     }
     .item1{
-        position : static;
     left: 100px;
     top: 200 px;
 
 }
     .item3{
-        position : static;
     left: 100px;
     top: 500px;
 
 }
     .item2{
-        position : static;
     left: 100px;
     top: 280px;
 
 }
     .item4{
-        position : static;
     left: 100px;
     top: 340px;
 
 }
     .item5{
-        position : static;
     left: 100px;
     top: 420px;
 
 }
-    .presentation{
-    position : static;
-       
-}
+
 }

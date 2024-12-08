@@ -113,21 +113,21 @@ body{
 
 .item1{
     left : 30px;
-    margin-top :50px;
+    top :10px;
 }
     .item2{
     left : 30px;
-    margin-top :50px;
+    top :15px;
 }.item3{
     left : 30px;
-    margin-top :50px;
+    top : 20 px;
 }.item4{
     left : 30px;
-    margin-top :50px;
+    top : 25 px;
 }
     .item5{
     left : 30px;
-    margin-top :50px;
+    top : 30 px;
 }
     
 

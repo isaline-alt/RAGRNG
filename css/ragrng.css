@@ -101,6 +101,13 @@ body{
     font-size: 150%;
 }
 @media (max-width: 768px) {
+    body {
+      background-image: url('img/P1030213.webp');
+      background-position: center;
+    background-size: cover; /* L'image couvre toute la surface sans distorsion */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+            height: 100vh; 
+    }
     .item1{
         position : static;
     left: 100px;

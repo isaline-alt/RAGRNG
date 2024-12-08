@@ -112,24 +112,26 @@ body{
 }
 
 .item1{
-    left : 30px;
-    top : 10% ;
+    text-align : left;
+    margin-top : 80 px;
+    
+
 }
     .item2{
-    left : 30px;
-    top : 15% ;
+  text-align : left;
+    margin-top : 80 px;
 }
        .item3{
-    left : 30px;
-    top : 20 %px;
+    text-align : left;
+    margin-top : 80 px;
 }
        .item4{
-    left : 30px;
-    top : 30% ;
+    text-align : left;
+    margin-top : 80 px;
 }
     .item5{
-    left : 30px;
-    top : 35 %;
+   text-align : left;
+    margin-top : 80 px;
 }
     
 

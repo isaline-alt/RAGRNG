@@ -16,7 +16,7 @@
 }
 body{
    background-image: url('P1030213.webp');
-            background-size: 1920px 1080px;
+            background-size: cover;
             background-position: center center; /* Centre l'image */
             background-repeat: no-repeat; /* Empêche la répétition de l'image */ 
             margin: 0 0;

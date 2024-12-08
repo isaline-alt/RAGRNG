@@ -16,7 +16,7 @@
 }
 body{
    background-image: url('P1030213.webp');
-            background-size: 1920px 1080px; /* Couvre toute la surface */
+            background-size: 1920px 1080px;
             background-position: center center; /* Centre l'image */
             background-repeat: no-repeat; /* Empêche la répétition de l'image */ 
             margin: 0 0;
@@ -103,6 +103,13 @@ body{
 @media (max-width: 768px) {
    body{
     background-size: 13cm 7cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre horizontalement */
+    justify-content: center; /* Centre verticalement */
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
     
 
 }

@@ -14,6 +14,27 @@
     font-style: normal;
     font-display: swap;
 }
+ @media (max-width: 768px) {
+            header {
+                font-size: 1.2em;
+                padding: 15px;
+            }
+
+            body {
+                flex-direction: column; /* En mode mobile, on passe la disposition en colonne */
+                padding: 10px;
+            }
+
+
+            .main-content {
+                width: 100%; /* La section principale prend 100% de la largeur */
+                padding: 10px;
+            }
+
+            footer {
+                font-size: 0.9em;
+            }
+        }
 .titre{
     color: rgb(0, 0, 0);
     font-family : "titre";

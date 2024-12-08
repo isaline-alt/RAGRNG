@@ -78,7 +78,7 @@ body{
     font-family : "titre";
     left : 15px;
     top : 1px;
-    position: static;
+    position: fixed;
     font-style :normal;
     font-size: 500%;
 }
@@ -87,7 +87,7 @@ body{
     font-family : "sous-titre";
     left : 20px;
     top : 150px;
-    position: static ;
+    position: fixed;
     font-style :normal;
     font-size: 150%;
 }
@@ -107,9 +107,7 @@ body{
     flex-direction: column;
     align-items: center; /* Centre horizontalement */
     justify-content: center; /* Centre verticalement */
-    height: 100vh;
-    margin: 0;
-    padding: 10px;
+   
 }
     .presentation{
     position : static;

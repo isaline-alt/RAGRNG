@@ -16,12 +16,10 @@
 }
 body{
    background-image: url('P1030213.webp');
-            background-size: cover; /* Couvre toute la surface */
+            background-size: 1920px 1080px; /* Couvre toute la surface */
             background-position: center center; /* Centre l'image */
-            background-repeat: no-repeat; /* Empêche la répétition de l'image */
-            height: 1920px;                 /* Définissez une hauteur à l'élément pour voir l'image */
-    width: 1080px; 
-            margin: 0;
+            background-repeat: no-repeat; /* Empêche la répétition de l'image */ 
+            margin: 0 0;
 
 }
 
@@ -105,12 +103,6 @@ body{
 @media (max-width: 768px) {
    body{
     background-size: 13cm 7cm;
-    display: flex; /* Utilisation de Flexbox */
-            flex-direction: column; /* Aligne les éléments sur une colonne */
-            align-items: center; /* Centre tous les éléments horizontalement */
-            justify-content: flex-start; /* Aligne les éléments en haut (par défaut) */
-            height: 100vh; /* Prend toute la hauteur de la fenêtre */
-            margin: 0;
-            padding: 0;
+    
 
 }

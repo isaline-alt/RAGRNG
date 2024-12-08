@@ -113,23 +113,23 @@ body{
 
 .item1{
     left : 30px;
-    top :10px;
+    top : 10% ;
 }
     .item2{
     left : 30px;
-    top :15px;
+    top : 15% ;
 }
        .item3{
     left : 30px;
-    top : 20 px;
+    top : 20 %px;
 }
        .item4{
     left : 30px;
-    top : 25 px;
+    top : 30% ;
 }
     .item5{
     left : 30px;
-    top : 30 px;
+    top : 35 %;
 }
     
 

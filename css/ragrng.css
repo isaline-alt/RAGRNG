@@ -98,7 +98,7 @@ body{
 }
 @media (max-width: 768px) {
    body{
-    background-size : contain;
+    background-size : background-size: 768 px 1500px;
 
 }
 

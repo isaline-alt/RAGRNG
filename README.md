@@ -3,13 +3,13 @@
 <link rel="stylesheet" href="css/ragrng.css">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable=no>
     <title>RAG RNG</title>
     <img class = "" src=""alt="">
 </head>
 
 <body>
-    <img src="img/P1030213.JPG"alt="">
+    
     <h1 class = "titre">RAG RNG</h1>
     <subtitle class = "sous-titre">résidence autogérée en refuge non gardé</subtitle>
     <p href="performance.html" class = "presentation"> Cahute de la Fauge, massif du Vercors, édition 1 (24/10 au 01/11 2024), participants.es : Elise, Maïlis, Roman, Aldo, Marie, Capucine, Isaline</p>

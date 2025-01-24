@@ -9,6 +9,7 @@
 <style>
     /* Style du bouton */
     .arrow-button {
+	    position : top : 600 px
       background-color: #4CAF50; /* Couleur du fond */
       color: white; /* Couleur du texte */
       border: none; /* Pas de bordure */
@@ -16,21 +17,21 @@
       text-align: center; /* Centrer le texte */
       text-decoration: none; /* Enlever la décoration du texte */
       display: inline-block;
-      font-size: 16px;
+      font-size: 40 px;
       cursor: pointer; /* Curseur en forme de main */
       border-radius: 5px; /* Bords arrondis */
     }
 
     /* Flèche avec CSS */
     .arrow-button::after {
-      content: '→'; /* Flèche droite */
-      font-size: 24px;
+      content: 'V';
+      font-size: 30px;
       margin-left: 10px; /* Espace entre le texte et la flèche */
     }
 
     /* Changer la couleur du bouton quand on passe la souris dessus */
     .arrow-button:hover {
-      background-color: #45a049;
+      background-color: #45a045;
     }
   </style>
 </head>
@@ -72,11 +73,9 @@
 	Elise Versiny Campinchi (design textile ENSAAMA), Marie Boulet (Graphisme ENSAAMA), Isaline Altisen (Scénographie ENSAD) </div>
 	     
      </div>
-<a href="ragrng.html">
-  <button class="arrow-button">
-    Aller à l'exemple
+
+<button class="arrow-button" onclick="window.location.href='ragrng.html'">
   </button>
-</a>
 
 
 </html>

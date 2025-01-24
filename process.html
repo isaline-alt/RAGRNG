@@ -6,6 +6,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title class="titlelink">PROCESS</title>
+<style>
+    /* Style du bouton */
+    .arrow-button {
+      background-color: #4CAF50; /* Couleur du fond */
+      color: white; /* Couleur du texte */
+      border: none; /* Pas de bordure */
+      padding: 15px 32px; /* Espacement autour du texte */
+      text-align: center; /* Centrer le texte */
+      text-decoration: none; /* Enlever la décoration du texte */
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer; /* Curseur en forme de main */
+      border-radius: 5px; /* Bords arrondis */
+    }
+
+    /* Flèche avec CSS */
+    .arrow-button::after {
+      content: '→'; /* Flèche droite */
+      font-size: 24px;
+      margin-left: 10px; /* Espace entre le texte et la flèche */
+    }
+
+    /* Changer la couleur du bouton quand on passe la souris dessus */
+    .arrow-button:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
     <h1 class = "titre">RAG RNG</h1>
@@ -46,7 +73,11 @@
 	     
      </div>
 
+
+  <!-- Bouton avec action de redirection -->
+  <button class="arrow-button" onclick="window.location.href='https://www.m'">
    
-</body>
+  </button>
+
 
 </html>

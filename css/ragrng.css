@@ -15,7 +15,7 @@
     font-display: swap;
 }
 body{
-   background-image: url('compo photos.pdf');
+   background-image: url('img/compo photos.jpg');
             background-size: cover;
             background-position: center center; /* Centre l'image */
             background-repeat: no-repeat; /* Empêche la répétition de l'image */ 

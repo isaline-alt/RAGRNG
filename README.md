@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-<link rel="stylesheet" href="css/ragrng.css">
+<link rel="stylesheet" href="css/performance.css">
+<script type="text/javascript" src="js/performanc.js"></script>
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>RAG RNG</title>
-    <img class = "" src=""alt="">
-</head>
-
-<body>
-    <style>
-    body {
-      background-image: url('P1030213.webp');
-      background-size: 140%;
-      background-position: center;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="titlelink">PROCESS</title>
+<style>
+    /* Style du bouton */
+    .arrow-button {
+	    position : top : 600 px
+      background-color: #4CAF50; /* Couleur du fond */
+      color: white; /* Couleur du texte */
+      border: none; /* Pas de bordure */
+      padding: 350px 60px; /* Espacement autour du texte */
+      text-align: center; /* Centrer le texte */
+      text-decoration: none; /* Enlever la décoration du texte */
+      display: inline-block;
+      font-size: 40 px;
+      cursor: pointer; /* Curseur en forme de main */
+      border-radius: 5px; /* Bords arrondis */
     }
-    </style>
 
-    
-    <h1 class = "titre">RAG RNG</h1>
-    <subtitle class = "sous-titre">résidence autogérée en refuge non gardé</subtitle>
-    <p href="performance.html" class = "presentation"> Cahute de la Fauge, massif du Vercors, édition 1 (24/10 au 01/11 2024), participants.es : Elise, Maïlis, Roman, Aldo, Marie, Capucine, Isaline</p>
-    <a href="hors-categorie.html">
-        <legend class="item5">HORS-CATÉGORIE</legend>
-    <a href="performance.html">
-        <legend class="item2">PERFORMANCE</legend>
-    </a>
-    <a href="décorations.html">
-        <legend class="item3">DECORATIONS</legend>
-    </a>
-    <a href="process.html">
-        <legend class="item4">PROCESS</legend>
-    </a>
-    <a href="dessins.html">
-        <legend class="item1">DESSINS</legend>
-    </a>
- 
-</html> 
+    /* Flèche avec CSS */
+    .arrow-button::after {
+      content: '<CABANE DE LA FAUGE, 1ÈRE ÉDITION>';
+      font-size: 30px;
+    }
+
+    /* Changer la couleur du bouton quand on passe la souris dessus */
+    .arrow-button:hover {
+      background-color: #45a050;
+    }
+  </style>
+</head>

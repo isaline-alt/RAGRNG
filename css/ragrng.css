@@ -74,15 +74,15 @@
     top: 75%;
 .titre{
    color: rgb(250, 250, 250);
-    font-family : "titre";
     left : 15px;
     top : 1px;
     position: fixed;
     font-style :normal;
     font-size: 500%;
+    font-family :"titre"
 }
 .sous-titre{
-    color: rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
     font-family : "sous-titre";
     left : 20px;
     top : 150px;

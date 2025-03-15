@@ -14,24 +14,6 @@
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-    font-family: "titre";
-    src: url('fonts/Pilowlava-Regular.woff2') format('woff2'),
-        url('fonts/Pilowlava-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    color: antiquewhite;
-}
-@font-face {
-    font-family: "sous-titre";
-    src: url('fonts/Karrik-Regular.woff') format('woff2'),
-        url('fonts/Karrik-Regular.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-    color: antiquewhite;
-}
 
 #video-background {
     position: fixed; /* La vidéo est fixée en arrière-plan */

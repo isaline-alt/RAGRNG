@@ -1,7 +1,6 @@
 @font-face {
     font-family: "titre";
-    src: url('fonts/Pilowlava-Regular.woff2') format('woff2'),
-        url('fonts/Pilowlava-Regular.woff') format('woff');
+    src: url('fonts/Pilowlava-Regularwoff') format('woff2'),
     font-weight: normal;
     font-style: normal;
     font-display: swap;

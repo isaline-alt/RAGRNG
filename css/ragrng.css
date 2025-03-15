@@ -14,67 +14,85 @@
     font-style: normal;
     font-display: swap;
 }
-body{
-   background-image: url('img/compo photos.jpg');
-            background-size: cover;
-            background-position: center center; /* Centre l'image */
-            background-repeat: no-repeat; /* Empêche la répétition de l'image */ 
-            margin: 0 0;
-     cursor: url('stick.dwg'), auto;
+@font-face {
+    font-family: "titre";
+    src: url('fonts/Pilowlava-Regular.woff2') format('woff2'),
+        url('fonts/Pilowlava-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: antiquewhite;
+}
+@font-face {
+    font-family: "sous-titre";
+    src: url('fonts/Karrik-Regular.woff') format('woff2'),
+        url('fonts/Karrik-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: antiquewhite;
+}
+
+#video-background {
+    position: fixed; /* La vidéo est fixée en arrière-plan */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que la vidéo couvre toute la page */
+    z-index: -1; /* La vidéo reste en arrière-plan */
 }
 
 .item1{
+    color: rgb(250, 250, 250);
     font-size : 300%;
     font-family: "sous-titre";
-    position: fixed;
-    display : flex;
+    position:fixed;
+    display : block;
     right: 35%;
     top:15%;
-    color: rgb(61, 4, 77);
 }
 
-.item4{
+.item2{
+    color: rgb(250, 250, 250);
     font-size : 300%;
     font-family: "sous-titre";
     position: fixed;
-    display: flex;
+    display: block;
     right: 10%;
     top: 25%;
-    color: rgb(73, 7, 91);
 
 }
 .item3{
+    color: rgb(250, 250, 250);
     font-size : 300%;
     font-family: "sous-titre";
     position: fixed;
-    display: flex;
+    display: block;
     right: 35%;
     top: 45%;
-    color: rgb(61, 4, 77);
 
 }
-.item2{
+.item4{
+    color: rgb(250, 250, 250);
     font-size : 300%;
     font-family: "sous-titre";
     position: fixed;
-    display: flex;
+    display: block;
     right: 10%;
     top: 65%;
-    color: rgb(61, 4, 77);
 
 }
 .item5{
+    color: rgb(250, 250, 250);
     font-size : 300%;
     font-family: "sous-titre";
     position: fixed;
-    display: flex;
+    display: block;
     right: 35%;
     top: 75%;
-    color: rgb(61, 4, 77);
-
-}
 .titre{
-    color: rgb(0, 0, 0);
+   color: rgb(250, 250, 250);
     font-family : "titre";
     left : 15px;
     top : 1px;

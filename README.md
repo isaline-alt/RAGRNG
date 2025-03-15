@@ -17,7 +17,7 @@
       text-align: center; /* Centrer le texte */
       text-decoration: none; /* Enlever la décoration du texte */
       display: inline-block;
-      font-size: 40 px;
+      font-size: 10 px;
       cursor: pointer; /* Curseur en forme de main */
       border-radius: 5px; /* Bords arrondis */
     }

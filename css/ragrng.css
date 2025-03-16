@@ -34,7 +34,7 @@
     display : block;
     right: 35%;
     top:15%;
- animation: vol 5s linear infinite alternate-reverse;
+ animation: vol 1s linear infinite alternate-reverse;
     position: absolute;
     left:0;
     top:0;
@@ -58,7 +58,12 @@
     display: block;
     right: 10%;
     top: 25%;
-
+  animation: vol 1s linear infinite alternate-reverse;
+    position: absolute;
+    left:0;
+    top:0;
+    
+}
 }
 .item3{
     color: rgb(250, 250, 250);
@@ -68,7 +73,12 @@
     display: block;
     right: 35%;
     top: 45%;
-
+  animation: vol 1s linear infinite alternate-reverse;
+    position: absolute;
+    left:0;
+    top:0;
+    
+}
 }
 .item4{
     color: rgb(250, 250, 250);
@@ -78,7 +88,12 @@
     display: block;
     right: 10%;
     top: 65%;
-
+  animation: vol 1s linear infinite alternate-reverse;
+    position: absolute;
+    left:0;
+    top:0;
+    
+}
 }
 .item5{
     color: rgb(250, 250, 250);
@@ -88,6 +103,12 @@
     display: block;
     right: 35%;
     top: 75%;
+  animation: vol 1s linear infinite alternate-reverse;
+    position: absolute;
+    left:0;
+    top:0;
+    
+}
 
 }
 .titre{
@@ -109,12 +130,7 @@
     font-size: 150%;
 }
 
-.image-mobile {
-            display: none;
-        }
-
-       
-
+      
 
 @media (max-width: 768px) {
  .image-desktop {

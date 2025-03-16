@@ -111,7 +111,21 @@
     font-style :normal;
     font-size: 150%;
 }
-
+.item1:hover {
+            color: #FF6347; /* Nouvelle couleur de police (Tomato) lors du survol */
+        }
+.item2:hover {
+            color: #FF6347; /* Nouvelle couleur de police (Tomato) lors du survol */
+        }
+.item3:hover {
+            color: #FF6347; /* Nouvelle couleur de police (Tomato) lors du survol */
+        }
+.item4:hover {
+            color: #FF6347; /* Nouvelle couleur de police (Tomato) lors du survol */
+        }
+.item5:hover {
+            color: #FF6347; /* Nouvelle couleur de police (Tomato) lors du survol */
+        }
       
 
 @media (max-width: 768px) {

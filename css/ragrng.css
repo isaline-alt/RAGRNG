@@ -131,7 +131,7 @@
   position : fixed;
  left : 200px;
  top : 600px;
- width: 200px; /* Largeur du bloc */
+ width: 400px; /* Largeur du bloc */
  height: 300px; /* Hauteur du bloc */
       
             overflow: hidden; /* Empêche l'image de déborder *

@@ -131,11 +131,10 @@
   position : fixed;
  left : 5px;
  top : 300px;
- width: 300px; /* Largeur du bloc */
+ width: 100px; /* Largeur du bloc */
  height: 200px; /* Hauteur du bloc */
-            border: 2px solid #333; /* Bordure pour mieux visualiser le bloc */
-            overflow: hidden; /* Empêche l'image de déborder */
-            display: flex; /* Utilisation de Flexbox pour aligner l'image */
+      
+            overflow: hidden; /* Empêche l'image de déborder *
             justify-content: center; /* Centrer l'image horizontalement */
             align-items: center; /* Centrer l'image verticalement */
  

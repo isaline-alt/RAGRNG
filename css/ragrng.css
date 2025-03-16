@@ -95,7 +95,25 @@
     font-style :normal;
     font-size: 150%;
 }
+.image {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Cacher l'image mobile par défaut */
+        .image-mobile {
+            display: none;
+        }
+
+
 @media (max-width: 768px) {
+ .image-desktop {
+                display: none;
+            }
+
+            .image-mobile {
+                display: block;
+            }
  .titre{
        font-size: 350%;
        text-align : left;

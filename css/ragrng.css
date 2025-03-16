@@ -116,12 +116,12 @@
             }
  .titre{
        font-size: 350%;
-       text-align : left;
+       text-align : center;
 
    }
     .sous-titre{
-       font-size: 200%;
-       text-align : left;
+       font-size: 100%;
+       text-align : center;
 
    }
     .item1{
@@ -133,19 +133,19 @@
     .item3{
     left: 100px;
     top: 280px;
-    font-size :75%;
+    font-size :110%;
 
 }
     .item2{
     left: 100px;
     top: 360px;
-     font-size : 75%;
+     font-size : 110%;
 
 }
     .item4{
     left: 100px;
     top: 440px;
-    font-size :75%;
+    font-size :110%;
     
 
 }

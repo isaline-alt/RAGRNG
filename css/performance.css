@@ -84,6 +84,7 @@ body{
   }
 
   .carousel-caption {
+    color: #1919E6;
     font-family: "sous-titre";
     position: relative;
     text-align: center;

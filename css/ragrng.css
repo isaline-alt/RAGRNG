@@ -95,10 +95,7 @@
     font-style :normal;
     font-size: 150%;
 }
-.image {
-            width: 100%;
-            height: auto;
-        }
+
 
         /* Cacher l'image mobile par défaut */
         .image-mobile {

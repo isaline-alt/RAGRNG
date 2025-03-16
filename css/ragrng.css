@@ -112,7 +112,14 @@
             }
 
             .image-mobile {
-                display: block;
+             display : fixed;
+                position: fixed; /* La vidéo est fixée en arrière-plan */
+             top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assure que la vidéo couvre toute la page */
+    z-index: -1; /* La vidéo reste en arrière-plan */
             }
  .titre{
        font-size: 350%;

@@ -84,12 +84,11 @@ body{
   }
 
   .carousel-caption {
-    color: #1919E6;
     font-family: "sous-titre";
     position: relative;
     text-align: center;
+    color: #1919E6;
     align-items: center;
-    color: #000000;
     padding: 10px;
     margin-bottom: 5px; /* Marge pour séparer la légende du carrousel */
   }

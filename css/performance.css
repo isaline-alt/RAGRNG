@@ -97,7 +97,6 @@ body{
   .carousel-button {
     position: absolute;
     top: 50%;
-    opacity: 100%;
     transform: translateY(-50%);
     color: #1919E6;
     border: none;

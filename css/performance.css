@@ -33,7 +33,14 @@
   font-size: 500%;
 }
 
-
+.titlelink{
+  color: rgb(0, 0, 0);
+  font-family : "sous-titre";
+  margin-left: 15px;
+  top : 20px;
+  position: absolute;
+  font-size: 100%;
+}
 body{
     background-color: rgb(236, 235, 234);
     margin-top: 250px;

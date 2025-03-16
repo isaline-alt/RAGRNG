@@ -38,7 +38,8 @@
 .intention{
   color: #1919E6;
   font-family : "sous-titre";
-  margin-left: 1130px;
+  margin-left: 1080px;
+margin-right: 50px;
   top : 300px;
 
   position: absolute;

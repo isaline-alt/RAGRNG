@@ -105,7 +105,7 @@ body{
   }
 @media (max-width: 768px) {
    .titre{
-       top : 5px;
+       top : 10px;
        font-size: 350%;
        text-align : left;
 

@@ -129,10 +129,10 @@
 .trésor{
             opacity: 0%;
   position : fixed;
- left : 5px;
+ left : 200px;
  top : 600px;
- width: 100px; /* Largeur du bloc */
- height: 200px; /* Hauteur du bloc */
+ width: 200px; /* Largeur du bloc */
+ height: 300px; /* Hauteur du bloc */
       
             overflow: hidden; /* Empêche l'image de déborder *
             justify-content: center; /* Centrer l'image horizontalement */

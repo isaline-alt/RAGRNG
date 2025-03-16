@@ -27,6 +27,9 @@
     z-index: -1; /* La vidéo reste en arrière-plan */
 }
 
+
+
+
 .item1{
     color: rgb(250, 250, 250);
     font-size : 300%;
@@ -34,8 +37,11 @@
     display : block;
     right: 35%;
     top:15%;
-    
-}
+ animation: vol 25s linear infinite alternate-reverse;
+    position: absolute;
+    left:0;
+    top:0;
+ }
 
 
 
@@ -44,39 +50,58 @@
     color: rgb(250, 250, 250);
     font-size : 300%;
     font-family: "sous-titre";
-    position: fixed;
     display: block;
     right: 10%;
     top: 25%;
+  animation: vol 35s linear infinite alternate-reverse;
+    position: absolute;
+    left:0;
+    top:0;
     
 }
 .item3{
     color: rgb(250, 250, 250);
     font-size : 300%;
     font-family: "sous-titre";
-    position: fixed;
     display: block;
     right: 35%;
     top: 45%;
+  animation: vol 40s linear infinite alternate-reverse;
+    position: absolute;
+    left:0;
+    top:0;
 }
 .item4{
     color: rgb(250, 250, 250);
     font-size : 300%;
     font-family: "sous-titre";
-    position: fixed;
     display: block;
     right: 10%;
     top: 65%;
+  animation: vol 20s linear infinite alternate-reverse;
+    position: absolute;
+    left:0;
+    top:0;
 }
 .item5{
     color: rgb(250, 250, 250);
     font-size : 300%;
     font-family: "sous-titre";
-    position: fixed;
     display: block;
     right: 35%;
     top: 75%;
+  animation: vol 45s linear infinite alternate-reverse;
+    position: absolute;
+    left:0;
+    top:0;
 
+}
+@keyframes vol {
+    0% {left:10%; top:80%; transform:rotate:(20deg);}
+    50% {left: 50%; top: 20%; transform:rotate:(20deg);}
+    80% {left: 80%; top: 30%; transform:rotate:(80deg);}
+
+    
 }
 .titre{
     color: rgb(250, 250, 250);

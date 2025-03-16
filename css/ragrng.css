@@ -96,12 +96,6 @@
     font-size: 150%;
 }
 @media (max-width: 768px) {
-    body {
-      background-image: url('img/compo photos.jsp);
-      background-position: center;
-    background-size: 50%; /* L'image couvre toute la surface sans distorsion */
-    background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    }
     .item1{
     left: 100px;
     top: 600px;

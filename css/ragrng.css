@@ -101,9 +101,6 @@
 
 
 @media (max-width: 768px) {
- .image-desktop {
-                display: none;
-            }
 
    .image-mobile {
     display : block ;

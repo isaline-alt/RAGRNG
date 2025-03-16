@@ -34,7 +34,7 @@
     display : block;
     right: 35%;
     top:15%;
- animation: vol 10s linear infinite alternate-reverse;
+ animation: vol 5s linear infinite alternate-reverse;
     position: absolute;
     left:0;
     top:0;
@@ -43,8 +43,8 @@
 
 @keyframes vol {
     0% {left:10%; top:80%; transform:rotate:(20deg);}
-    50% {left: 50%; top: 20%; transform:rotate:(20deg);}
-    80% {left: 80%; top: 30%; transform:rotate:(80deg);}
+    50% {left: 25%; top: 20%; transform:rotate:(20deg);}
+    80% {left: 40%; top: 30%; transform:rotate:(80deg);}
 
     
 }

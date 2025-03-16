@@ -96,11 +96,21 @@
     font-size: 150%;
 }
 
+.image-mobile {
+            display: none;
+        }
 
        
 
 
 @media (max-width: 768px) {
+ .image-desktop {
+                display: none;
+            }
+
+ .image-mobile {
+                display: block;
+            }
  .titre{
        font-size: 350%;
        text-align : center;

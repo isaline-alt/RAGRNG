@@ -96,6 +96,16 @@
     font-size: 150%;
 }
 @media (max-width: 768px) {
+ .titre{
+       font-size: 350%;
+       text-align : left;
+
+   }
+    .titlelink{
+       font-size: 200%;
+       text-align : left;
+
+   }
     .item1{
     left: 100px;
     top: 600px;

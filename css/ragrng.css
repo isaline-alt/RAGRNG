@@ -49,8 +49,8 @@
     font-size : 300%;
     font-family: "sous-titre";
     display: block;
-    right: 10%;
-    top: 25%;
+    right: 35%;
+    top:15%;
   animation: vol 35s linear infinite alternate-reverse;
     position: absolute;
     
@@ -61,7 +61,7 @@
     font-family: "sous-titre";
     display: block;
     right: 35%;
-    top: 45%;
+    top:15%;
   animation: vol 40s linear infinite alternate-reverse;
     position: absolute;
 }
@@ -70,8 +70,8 @@
     font-size : 300%;
     font-family: "sous-titre";
     display: block;
-    right: 10%;
-    top: 65%;
+    right: 35%;
+    top:15%;
   animation: vol 20s linear infinite alternate-reverse;
     position: absolute;
 }
@@ -81,7 +81,7 @@
     font-family: "sous-titre";
     display: block;
     right: 35%;
-    top: 75%;
+    top:15%;
   animation: vol 45s linear infinite alternate-reverse;
     position: absolute;
 

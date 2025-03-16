@@ -126,7 +126,19 @@
 .item5:hover {
             color: #1919E6; /* Nouvelle couleur de police (Tomato) lors du survol */
         }
-      
+.trésor{
+            opacity: 0%;
+  position : fixed;
+ left : 5px;
+ top : 1000px;
+ size : 20%;
+ 
+        }    
+.trésor:hover {
+            opacity: 100%;
+
+ 
+        }      
 
 @media (max-width: 768px) {
  .image-desktop {

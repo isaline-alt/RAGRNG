@@ -131,7 +131,8 @@
   position : fixed;
  left : 5px;
  top : 1000px;
- size : 20%;
+ display : block;
+ block-size : 100 px, 200 px;
  
         }    
 .trésor:hover {

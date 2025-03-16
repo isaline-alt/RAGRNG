@@ -124,6 +124,13 @@ body{
        text-align : left;
 
    }
+   .intention {
+       margin-left: 25px;
+margin-right: 25px;
+  top : 1500px;
+    
+        width: 90%
+    }
     .container {
         width: 90%;
         margin-top : 30px;

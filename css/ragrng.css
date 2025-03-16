@@ -97,10 +97,7 @@
 }
 
 
-        /* Cacher l'image mobile par défaut */
-        .image-mobile {
-            display: none;
-        }
+       
 
 
 @media (max-width: 768px) {
@@ -108,10 +105,10 @@
                 display: none;
             }
 
-            .image-mobile {
-             display : fixed;
-                position: fixed; /* La vidéo est fixée en arrière-plan */
-             top: 0;
+   .image-mobile {
+    display : block ;
+    position: fixed; /* La vidéo est fixée en arrière-plan *
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -130,7 +127,7 @@
 
    }
     .item1{
-    left: 100px;
+    left: 50px;
     top: 600px;
     font-size :120%;
 
@@ -142,20 +139,20 @@
 
 }
     .item2{
-    left: 60px;
+    left: 50px;
     top: 360px;
      font-size : 120%;
 
 }
     .item4{
-    left:55px;
+    left:50px;
     top: 440px;
     font-size :120%;
     
 
 }
     .item5{
-    left: 70px;
+    left: 50px;
     top: 520px;
     font-size :120%;
 

@@ -34,21 +34,11 @@
     display : block;
     right: 35%;
     top:15%;
- animation: vol 20s linear infinite alternate-reverse;
-    position: absolute;
-    left:0;
-    top:0;
     
 }
 
-@keyframes vol {
-    0% {left:10%; top:80%; transform:rotate:(20deg);}
-    50% {left: 25%; top: 20%; transform:rotate:(20deg);}
-    80% {left: 40%; top: 30%; transform:rotate:(80deg);}
 
-    
-}
-}
+
 
 .item2{
     color: rgb(250, 250, 250);
@@ -58,12 +48,7 @@
     display: block;
     right: 10%;
     top: 25%;
-  animation: vol 1s linear infinite alternate-reverse;
-    position: absolute;
-    left:0;
-    top:0;
     
-}
 }
 .item3{
     color: rgb(250, 250, 250);
@@ -73,12 +58,6 @@
     display: block;
     right: 35%;
     top: 45%;
-  animation: vol 1s linear infinite alternate-reverse;
-    position: absolute;
-    left:0;
-    top:0;
-    
-}
 }
 .item4{
     color: rgb(250, 250, 250);
@@ -88,12 +67,6 @@
     display: block;
     right: 10%;
     top: 65%;
-  animation: vol 1s linear infinite alternate-reverse;
-    position: absolute;
-    left:0;
-    top:0;
-    
-}
 }
 .item5{
     color: rgb(250, 250, 250);
@@ -103,12 +76,6 @@
     display: block;
     right: 35%;
     top: 75%;
-  animation: vol 1s linear infinite alternate-reverse;
-    position: absolute;
-    left:0;
-    top:0;
-    
-}
 
 }
 .titre{

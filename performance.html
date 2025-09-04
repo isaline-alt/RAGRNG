@@ -28,63 +28,62 @@
 </iframe>
 
     
-  <style>
+    <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #000;
+    }
+
     .moving-image {
       position: absolute;
-      width: 500px; /* Taille des images */
+      width: 100px;
       height: auto;
-      transition: transform 20s linear;
-      pointer-events: none; /* clics passent à travers */
+      transition: transform 15s linear;
+      pointer-events: none;
     }
   </style>
 </head>
 <body>
 
-  <img src="img/performance/IMG_6760-2.webp" class="moving-image" id="img1">
+  <!-- Ajoute tes propres images ici -->
+    <img src="img/performance/IMG_6760-2.webp" class="moving-image" id="img1">
   <img src="img/performance/IMG_6789.webp" class="moving-image" id="img2">
   <img src="img/performance/IMG_6776.webp" class="moving-image" id="img3">
-<img src="img/performance/IMG_6776.webp" class="moving-image" id="img4">
+<img src="img/performance/IMG_6786.webp" class="moving-image" id="img4">
+
 
   <script>
-  const images = document.querySelectorAll('.moving-image');
+    const images = document.querySelectorAll('.moving-image');
 
-  function moveImageRandomly(image) {
-    const vw = window.innerWidth;
-    const vh = window.innerHeight;
+    function moveImageRandomly(image) {
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
 
-    const x = Math.random() * (vw - image.clientWidth);
-    const y = Math.random() * (vh - image.clientHeight);
+      const imgWidth = image.offsetWidth;
+      const imgHeight = image.offsetHeight;
 
-    image.style.transform = `translate(${x}px, ${y}px)`;
-  }
+      const x = Math.random() * (vw - imgWidth);
+      const y = Math.random() * (vh - imgHeight);
 
-  function animateImages() {
-    images.forEach(image => {
-      // Position de départ aléatoire
-      moveImageRandomly(image);
+      image.style.transform = `translate(${x}px, ${y}px)`;
+    }
 
-      // Ensuite, déplacement toutes les 15 secondes
-      setInterval(() => moveImageRandomly(image), 15000);
-    });
-  }
+    function animateImages() {
+      images.forEach(image => {
+        // Position initiale aléatoire
+        moveImageRandomly(image);
 
-  window.onload = animateImages;
-</script>
+        // Déplacement toutes les 15 secondes
+        setInterval(() => moveImageRandomly(image), 15000);
+      });
+    }
 
-</body>
-</html>  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    window.addEventListener('load', animateImages);
+  </script>
+
+
+
     
     
     

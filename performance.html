@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="titlelink">PERFORMANCE</title>
+    <title class="titlelink">PERFORMANCES</title>
 </head>
 
 <body>
@@ -26,10 +26,71 @@
   allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+  <style>
+    .moving-image {
+      position: absolute;
+      width: 100px; /* Taille des images */
+      height: auto;
+      transition: transform 10s linear;
+      pointer-events: none; /* clics passent à travers */
+    }
+  </style>
+</head>
+<body>
+
+  <img src="img/performance/IMG_6760-2.webp" class="moving-image" id="img1">
+  <img src="img/performance/IMG_6789.webp" class="moving-image" id="img2">
+  <img src="img/img/performance/IMG_6776.webp" class="moving-image" id="img3">
+
+  <script>
+    const images = document.querySelectorAll('.moving-image');
+
+    function moveImageRandomly(image) {
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      
+      const x = Math.random() * (vw - 100); // 100 = largeur image approx
+      const y = Math.random() * (vh - 100);
+
+      image.style.transform = `translate(${x}px, ${y}px)`;
+    }
+
+    function animateImages() {
+      images.forEach(image => {
+        moveImageRandomly(image);
+        setInterval(() => moveImageRandomly(image), 10000); // toutes les 10s
+      });
+    }
+
+    // Lancer l'animation au chargement
+    window.onload = animateImages;
+  </script>
+
+</body>
+</html>  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="carousel-wrapper">
       <!-- Premier Carrousel -->
  
-     
+
+
+
+
+
    <div class="carousel-container" id="carousel1">
      <div class="carousel-caption">Installation en bordure de chemin en fagots de bois </div>
  

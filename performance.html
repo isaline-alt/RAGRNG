@@ -56,22 +56,15 @@
       const imgW = image.offsetWidth;
       const imgH = image.offsetHeight;
 
-      const padding = 20; // marge tampon pour éviter les débordements
-      const x = Math.random() * (vw - imgW - padding);
-      const y = Math.random() * (vh - imgH - padding);
-
       image.style.transform = `translate(${x}px, ${y}px)`;
     }
 
     function animateImages() {
       images.forEach(image => {
         moveImageRandomly(image);
-        setInterval(() => moveImageRandomly(image), 20000);
-      });
     }
 
     window.addEventListener('load', animateImages);
-    window.addEventListener('resize', animateImages); // repositionner si la fenêtre change de taille
   </script>
 
 

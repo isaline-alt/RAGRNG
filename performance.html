@@ -34,6 +34,7 @@
       width: 500px;
       height: auto;
       pointer-events: none;
+        transition: transform 15s linear;
     }
   </style>
 </head>
@@ -66,9 +67,9 @@
       images.forEach(image => {
         // Position initiale aléatoire
         moveImageRandomly(image);
+        setInterval(() => moveImageRandomly(image), 15000);
+    });
 
-
-      });
     }
 
     window.addEventListener('load', animateImages);

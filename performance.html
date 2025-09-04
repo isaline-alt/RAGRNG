@@ -46,28 +46,30 @@
 <img src="img/performance/IMG_6776.webp" class="moving-image" id="img4">
 
   <script>
-    const images = document.querySelectorAll('.moving-image');
+  const images = document.querySelectorAll('.moving-image');
 
-    function moveImageRandomly(image) {
-      const vw = window.innerWidth;
-      const vh = window.innerHeight;
-      
-      const x = Math.random() * (vw - 100); // 100 = largeur image approx
-      const y = Math.random() * (vh - 100);
+  function moveImageRandomly(image) {
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
 
-      image.style.transform = `translate(${x}px, ${y}px)`;
-    }
+    const x = Math.random() * (vw - image.clientWidth);
+    const y = Math.random() * (vh - image.clientHeight);
 
-    function animateImages() {
-      images.forEach(image => {
-        moveImageRandomly(image);
-        setInterval(() => moveImageRandomly(image), 10000); // toutes les 10s
-      });
-    }
+    image.style.transform = `translate(${x}px, ${y}px)`;
+  }
 
-    // Lancer l'animation au chargement
-    window.onload = animateImages;
-  </script>
+  function animateImages() {
+    images.forEach(image => {
+      // Position de départ aléatoire
+      moveImageRandomly(image);
+
+      // Ensuite, déplacement toutes les 15 secondes
+      setInterval(() => moveImageRandomly(image), 15000);
+    });
+  }
+
+  window.onload = animateImages;
+</script>
 
 </body>
 </html>  

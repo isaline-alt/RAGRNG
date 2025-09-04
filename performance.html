@@ -26,12 +26,14 @@
   allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+
+    
   <style>
     .moving-image {
       position: absolute;
-      width: 100px; /* Taille des images */
+      width: 250px; /* Taille des images */
       height: auto;
-      transition: transform 10s linear;
+      transition: transform 20s linear;
       pointer-events: none; /* clics passent à travers */
     }
   </style>
@@ -40,7 +42,8 @@
 
   <img src="img/performance/IMG_6760-2.webp" class="moving-image" id="img1">
   <img src="img/performance/IMG_6789.webp" class="moving-image" id="img2">
-  <img src="img/img/performance/IMG_6776.webp" class="moving-image" id="img3">
+  <img src="img/performance/IMG_6776.webp" class="moving-image" id="img3">
+<img src="img/performance/IMG_6776.webp" class="moving-image" id="img4">
 
   <script>
     const images = document.querySelectorAll('.moving-image');

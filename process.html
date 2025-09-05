@@ -9,7 +9,67 @@
 <body>
     <h1 class = "titre">RAG RNG</h1>
     <h2 class="titlelink">RÉSUMER</h2>
- 
+
+
+<iframe width="853" height="480" class= "CHIENNES"
+  src="https://www.youtube.com/embed/WXOZxtiG3zQ?autoplay=1&loop=1&playlist=WXOZxtiG3zQ&mute=1"
+  frameborder="4"
+  allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+    
+    <style>
+    .moving-image {
+      position: absolute;
+      width: 500px;
+      height: auto;
+    transition: transform 20s linear;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ajoute tes propres images ici -->
+  <img src="img/process/IMG_6202.webp" class="moving-image" id="img1">
+	<img src="img/hors categorie/IMG_6266.webp" class="moving-image" id="img2">
+	<img src="img/process/IMG_6662.webp" class="moving-image" id="img3">
+	 <img src="img/process/IMG_6435.webp" class="moving-image" id="img4">
+
+
+  <script>
+    const images = document.querySelectorAll('.moving-image');
+
+    function moveImageRandomly(image) {
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const imgW = image.offsetWidth;
+      const imgH = image.offsetHeight;
+
+      const x = Math.random() * (vw - imgW);
+      const y = Math.random() * (vh - imgH);
+
+      image.style.transform = `translate(${x}px, ${y}px)`;
+    }
+
+    function animateImages() {
+      images.forEach(image => {
+        // Position initiale
+        moveImageRandomly(image);
+
+        // Déplacement périodique
+        setInterval(() => moveImageRandomly(image), 20000);
+      });
+    }
+
+    window.addEventListener('load', animateImages);
+  </script>
+
+<a class="legende">Vidéo d'en haut- Performance, Chiennes </a>
+<a class="legende">Vidéo d'en bas- Danse à trois </a>
+<a class="legende">Images mouvantes- Installation "je t'aime", fagots en bordure de sentier </a>
+    
 
 
 
@@ -20,22 +80,6 @@
 L’idée est d’investir un refuge non gardé avec l'accord de la municipalité, le temps d’une semaine afin d’y proposer des créations bénéfiques à la vie du lieu, le tout en intéragissant et cohabitant avec les éventuels utilisateurs.ices du refuge. Les conditions mêmes qui découlent du fait d'aller vivre dans un refuge, initient une dynamique collective (8h de marche, mission pour aller chercher l'eau,etc...), et une sobriété de moyens (tous ce qui est amenés doit tenir dans un sac). Les créations réalisées sont laissées à l'intérieur de la cabane. </div>
 </h2>    
 
-	
-	
-	<div class="carousel-container" id="carousel1">
-       <div class="carousel-images">
-         <img src="img/process/IMG_6202.webp" alt="Image 1">
-         <img src="img/hors categorie/IMG_6266.webp" alt="Image 3">
-         <img src="img/process/IMG_6662.webp" alt="Image 4">
-         <img src="img/process/IMG_6435.webp" alt="Image 5">
-
-       
-        
-       </div>
-         
-       <button class="carousel-button prev-button" onclick="moveSlide(1, 'carousel1')">&#10094;</button>
-       <button class="carousel-button next-button" onclick="moveSlide(-1, 'carousel1')">&#10095;</button>
-         <div class="carousel-caption">Mains</div>
 	     
 	    <div class="carousel-caption">Equipe de la première édition : Aldo Prost (Scénographie, ENSAD), 
 	Roman Chaumont (Arts du métal ENSAAMA), Maïlis Leboulicaut (Performance ENSAD), Capucine Revéret (design industriel, ENSCI), 

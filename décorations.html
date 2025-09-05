@@ -14,6 +14,100 @@
 
 
 <body>
+
+<iframe width="853" height="480" class= "CHIENNES"
+  src="https://www.youtube.com/embed/VL5XEBn5-8Q?autoplay=1&loop=1&playlist=VL5XEBn5-8Q&mute=1"
+  frameborder="4"
+  allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+    
+<iframe width="853" height="480" class="FENDRE LE PAYSAGE"
+  src="https://www.youtube.com/embed/2BzbQg9QO8o?autoplay=1&loop=1&playlist=2BzbQg9QO8o&mute=1"
+  frameborder="4"
+  allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+    
+    <style>
+    .moving-image {
+      position: absolute;
+      width: 500px;
+      height: auto;
+    transition: transform 20s linear;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ajoute tes propres images ici -->
+    
+    <img src="img/décorations/IMG_6975.webp" class="moving-image" id="img1">
+    <img src="img/décorations/IMG_6734.webp"  class="moving-image" id="img2">
+   <img src="img/décorations/IMG_6716.webp"class="moving-image" id="img3">
+ <img src="img/décorations/IMG_6695.webp"class="moving-image" id="img4">
+
+
+  <script>
+    const images = document.querySelectorAll('.moving-image');
+
+    function moveImageRandomly(image) {
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const imgW = image.offsetWidth;
+      const imgH = image.offsetHeight;
+
+      const x = Math.random() * (vw - imgW);
+      const y = Math.random() * (vh - imgH);
+
+      image.style.transform = `translate(${x}px, ${y}px)`;
+    }
+
+    function animateImages() {
+      images.forEach(image => {
+        // Position initiale
+        moveImageRandomly(image);
+
+        // Déplacement périodique
+        setInterval(() => moveImageRandomly(image), 20000);
+      });
+    }
+
+    window.addEventListener('load', animateImages);
+  </script>
+
+<a class="legende">Vidéo d'en haut- Performance, Chiennes </a>
+<a class="legende">Vidéo d'en bas- Danse à trois </a>
+<a class="legende">Images mouvantes- Installation "je t'aime", fagots en bordure de sentier </a>
+    
+</body>
+ 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 <iframe width="853" height="480"
   src="https://www.youtube.com/embed/X8Cg9cATyos?autoplay=1&loop=1&playlist=X8Cg9cATyos&mute=1"
   frameborder="0"

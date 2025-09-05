@@ -34,6 +34,16 @@
   font-size: 500%;
     block-size : 50%;
 }
+.legende{
+    top : 500 px;
+  color: rgb(0, 0, 0);
+  font-family : "sous-titre";
+  margin-left: 15px;
+  top : 20px;
+  position: absolute;
+  font-size: 30%;
+    block-size : 50%;
+}
 
 .intention{
   color: #1919E6;

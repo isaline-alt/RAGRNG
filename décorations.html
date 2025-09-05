@@ -56,13 +56,18 @@
       const vh = window.innerHeight;
       const imgW = image.offsetWidth;
       const imgH = image.offsetHeight;
+
+         const x = Math.random() * (vw - imgW);
+      const y = Math.random() * (vh - imgH);
         
 
       image.style.transform = `translate(${x}px, ${y}px)`;
     }
 
     function animateImages() {
-
+        images.forEach(image => {
+        // Position initiale
+        moveImageRandomly(image);
         // Déplacement périodique
         setInterval(() => moveImageRandomly(image), 20000);
       });

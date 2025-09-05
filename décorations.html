@@ -44,7 +44,7 @@
 
   <!-- Ajoute tes propres images ici -->
     
-    <img src="img/décorations/IMG_6975.webp" class="moving-image" id="img1">
+    <img src="img/décorations/IMG_6716.webp" class="moving-image" id="img1">
     <img src="img/décorations/IMG_6734.webp"  class="moving-image" id="img2">
    <img src="img/décorations/IMG_6716.webp" class="moving-image" id="img3">
     <img src="img/décorations/IMG_6695.webp" class="moving-image" id="img4">
@@ -58,17 +58,12 @@
       const vh = window.innerHeight;
       const imgW = image.offsetWidth;
       const imgH = image.offsetHeight;
-
-      const x = Math.random() * (vw - imgW);
-      const y = Math.random() * (vh - imgH);
+        
 
       image.style.transform = `translate(${x}px, ${y}px)`;
     }
 
     function animateImages() {
-      images.forEach(image => {
-        // Position initiale
-        moveImageRandomly(image);
 
         // Déplacement périodique
         setInterval(() => moveImageRandomly(image), 20000);

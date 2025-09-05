@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="titlelink">PAYSAGE COLLABORATIF</title>
+    <title class="titlelink">TRACER</title>
 </head>
 <body>
   <style>
@@ -22,41 +22,75 @@
     <h2 class="titlelink">DESSINS</h2>
 
 
-    <div class="carousel-wrapper">
-      <!-- Premier Carrousel -->
- 
-     
-   <div class="carousel-container" id="carousel1">
-     <div class="carousel-caption">Livre d'or</div>
- 
-     <div class="carousel-images">
-       <img src="img/dessin/IMG_6578.webp" alt="Image 1">
-       <img src="img/dessin/IMG_6564.webp" alt="Image 2">
-       <img src="img/dessin/IMG_6566.webp" alt="Image 3">
-       <img src="img/dessin/IMG_6568.webp" alt="Image 4">
-       <img src="img/dessin/IMG_6570.webp" alt="Image 5">
-     </div>
-     <button class="carousel-button prev-button" onclick="moveSlide(1, 'carousel1')">&#10094;</button>
-     <button class="carousel-button next-button" onclick="moveSlide(-1, 'carousel1')">&#10095;</button>
-   </div>
- 
- 
- 
-   
-   <!-- Deuxième Carrousel -->
-   <div class="carousel-container" id="carousel2">
-     <div class="carousel-caption">Carnets</div>
 
-     <div class="carousel-images">
-       <img src="img/dessin/IMG_6945.webp" alt="Image 6">
-       <img src="img/dessin/IMG_6956.webp" alt="Image 7">
-       <img src="img/dessin/IMG_6968.webp" alt="Image 8">
-       <img src="img/dessin/P1030020.webp" alt="Image 9">
-       <img src="img/dessin/P1030021.webp" alt="Image 10">
-     </div>
-     <button class="carousel-button prev-button" onclick="moveSlide(1, 'carousel2')">&#10094;</button>
-     <button class="carousel-button next-button" onclick="moveSlide(-1, 'carousel2')">&#10095;</button>
-   </div>
+<iframe width="853" height="480" class= "CHIENNES"
+  src="https://www.youtube.com/embed/2k7fhmsg_iA?autoplay=1&loop=1&playlist=2k7fhmsg_iA&mute=1"
+  frameborder="4"
+  allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+      
+    <style>
+    .moving-image {
+      position: absolute;
+      width: 100px;
+      height: auto;
+    transition: transform 20s linear;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ajoute tes propres images ici -->
+    <img src="img/dessin/IMG_6568.webp" class="moving-image" id="img1">
+<img src="img/dessin/IMG_6566.webp"class="moving-image" id="img2">
+   <img src="img/dessin/IMG_6564.webp" class="moving-image" id="img3">
+    <img src="img/dessin/IMG_6578.webp" class="moving-image" id="img4">
+    <img src="img/dessin/IMG_6578.webp" class="moving-image" id="img5">
+     <img src="img/dessin/IMG_6578.webp" class="moving-image" id="img5">
+    <img src="img/dessin/IMG_6945.webp" class="moving-image" id="img7">
+       <img src="img/dessin/IMG_6956.webp" class="moving-image" id="img8">
+       <img src="img/dessin/IMG_6968.webp" class="moving-image" id="img9">
+       <img src="img/dessin/P1030020.webp" class="moving-image" id="img10">
+       <img src="img/dessin/P1030021.webp" class="moving-image" id="img11">
+
+
+  <script>
+    const images = document.querySelectorAll('.moving-image');
+
+    function moveImageRandomly(image) {
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const imgW = image.offsetWidth;
+      const imgH = image.offsetHeight;
+
+      const x = Math.random() * (vw - imgW);
+      const y = Math.random() * (vh - imgH);
+
+      image.style.transform = `translate(${x}px, ${y}px)`;
+    }
+
+    function animateImages() {
+      images.forEach(image => {
+        // Position initiale
+        moveImageRandomly(image);
+
+        // Déplacement périodique
+        setInterval(() => moveImageRandomly(image), 20000);
+      });
+    }
+
+    window.addEventListener('load', animateImages);
+  </script>
+
+<a class="legende">Vidéo d'en haut- Performance, Chiennes </a>
+<a class="legende">Vidéo d'en bas- Danse à trois </a>
+<a class="legende">Images mouvantes- Installation "je t'aime", fagots en bordure de sentier </a>
+
+
+
+ 
 
    <!-- troisième Carrousel -->
    <div class="carousel-container" id="carousel3">

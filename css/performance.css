@@ -37,9 +37,10 @@
 .legende{
   color: #1919E6;
   font-family : "sous-titre";
-  left : 70%;
-  top : 150 px;
-  margin-top : 50 px;
+font-style : italic;
+  left : 65%;
+  top : 100 px;
+  margin-top : 100 px;
   position: fixed ;
   font-size: 100%;
 }

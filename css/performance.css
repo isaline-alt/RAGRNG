@@ -37,9 +37,9 @@
 .legende{
   color: rgb(0, 0, 0);
   font-family : "sous-titre";
-  margin-left: 15px;
+  left : 5%;
   margin-top : 100 px;
-  position: static;
+  position: fixed ;
   font-size: 100%;
 }
 

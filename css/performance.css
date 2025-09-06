@@ -39,9 +39,8 @@
   font-family : "sous-titre";
   margin-left: 15px;
   margin-top : 400 px;
-  position: absolute;
-  font-size: 70%;
-    block-size : 50%;
+  position: static;
+  font-size: 100%;
 }
 
 .intention{

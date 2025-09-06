@@ -35,9 +35,9 @@
     block-size : 50%;
 }
 .legende{
-  color: rgb(0, 0, 0);
+  color: #1919E6;
   font-family : "sous-titre";
-  left : 5%;
+  right : 5%;
   top : 200 px;
   margin-top : 20 px;
   position: fixed ;

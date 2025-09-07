@@ -159,11 +159,13 @@ margin-right: 25px;
   }
         .video {
         width: 90%;
+        height : auto;
     
 
   }
     .moving-image{
-      width: 20%;  
+      width: 100px;
+    height : auto;
     
 
   }

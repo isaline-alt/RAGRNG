@@ -121,6 +121,13 @@ body{
   .next-button {
     right: 10px;
   }
+    .moving-image {
+      position: absolute;
+      width: 500px;
+      height: auto;
+    transition: transform 20s linear;
+      pointer-events: none;
+    }
 @media (max-width: 768px) {
    .titre{
        top : 25px;

@@ -157,6 +157,18 @@ margin-right: 25px;
     gap: 10px; /* Espacement entre les carrousels */
 
   }
+        .video {
+        width: 90%;
+    
+
+  }
+    .img {
+      width: 20%;  
+    
+
+  }
+
+}
 
 }
   
